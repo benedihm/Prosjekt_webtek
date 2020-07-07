@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="no">
+    <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="main.css">  
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700,900" rel="stylesheet">
+        <link rel="icon" href="img/logo.jpg" sizes="16x16">
+        <title>TM - Booking</title>
+    </head>
+ <body>
+     <div id="navbar"> </div>
+    
+     
+    <div class="wrapper">
+        
+    <div class="header" id="bookingHeaderBilde"> 
+         <h1>BORDRESERVASJON</h1>
+    </div>
+        
+    <div id="bookingtop">
+        <p> Her kan du bestille bord hos oss</p>
+        <hr>
+    </div>  
+        <form id="skjema" onsubmit=" return FormVadilityCheck();" name="form">
+            <div class="fulltnavn">
+                <div class="fornavn" id="fornavn">
+                    <label for="input_fornavn"> Fornavn:</label>
+                    <input type="text" name="fornavn" class="svar" required id="input_fornavn"> 
+                </div>
+
+                <div class="etternavn" id="etternavn">
+                    <label for="input_etternavn">Etternavn:</label>
+                    <input type="text" name="etternavn" class="svar" required id="input_etternavn">
+                </div>
+            </div>
+            
+            <label for="e-mail">Epostadresse:</label>
+            <input type="email" name="e-mail" class="svar" required id="e-mail">
+            
+            <label for="telefonnummer">Telefonnummer: </label>
+            <input type="tel" name="telefonnummer" class="svar" required id="telefonnummer">
+            
+            <div class="Dato_tid">
+                <div class="dato_reservasjon">
+                <label for="dato">Dato for reservasjon:</label>
+                <input type="date" name="dato" class="svar" required id="dato">
+                </div>
+                <div class="tid">
+                    <label for="time">Tidspunkt:</label>
+                    <input type="time" name="time" class="svar" required id="time">
+                </div>
+                </div>
+                <div>
+                    <label for="personer">Antall personer:</label>
+                    <input type="number" name="personer" class="svar" min="1" max="25" required id="personer">
+                </div>
+                
+            <label> Spesielle behov eller ønsker:</label>
+            <textarea></textarea> <br>
+                
+            <input type="submit" value="Send" class="svar" id="submit"> 
+            <p id="Cola"> </p>
+        </form>
+        <div class="modal">
+            <div class="innside-modal">
+                <span class="close"> X </span>
+                <p>Din bestilling er nå fullført </p>
+            </div> 
+        </div>
+        
+    <div id="hoyreSide"> 
+        <div id="Bookingboks1">
+            <p> For å være garantert plass hos oss anbefaler vi å reservere et bord.blablablablablablablabla  <br> Om du har spørsmål eller ønsker å reservere over telefon kan du nå oss på telefon: <br> 123456789 </p>   
+
+            </div>
+
+        <img src="img/bilde6.jpg" id="Bookingbilde1" alt="Bilde på bookingsiden">
+    </div>
+
+    <div id="nederst">
+        <img id="Bookingbilde2" src="img/bilde7.jpg" alt="Et annet bilde på bookingsiden"> 
+        <div id="Bookingboks2"> <h3>Spesielle anledninger og private selskaper </h3><br>
+        <p>Planlegger du et selskap eller en større fest? Ha den hos os da vel! Vi tar imot selskaper fra 1 - 100 personer. Ved over 90 personer får du mulighet til å smake på vår verdensberømte og superhemmelige tacofest-meny. 
+        For mer info kontakt oss på mail: TacoIsLove@TM.no
+        </p> </div>
+    </div>
+
+     <div class="push"> </div> 
+        
+     </div>
+     
+      <footer id="footer"> </footer>
+     
+     <script src="script/header.js"></script> 
+     <script src="script/footer.js"></script>
+     <script src="script/form.js"></script>
+     
+     
+
+</body>
+</html>

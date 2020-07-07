@@ -1,0 +1,1234 @@
+*{
+    font-family: 'Roboto', Arial, Helvetica;
+    font-weight: 100;
+    color: white;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -50px;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/*Headerbilder til alle u/forside*/
+
+#eventsHeaderBilde{
+    background-image: url(img/eventsheader.jpeg);
+}
+
+#menyHeaderBilde{
+    background-image: url(img/menyHeader.jpeg);
+}
+
+#omossHeaderBilde{
+    background-image: url(img/restaurant.jpg);
+}
+
+#bookingHeaderBilde{
+    background-image: url(img/formHeader.jpeg);
+}
+
+.header {
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.7;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.header h1{
+    font-size: 75px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 15%;
+}
+
+
+/* Her begynner NAVBAR CSS */
+
+#newlogo {
+    display: none;
+}
+
+#newlogopicture {
+    display: none;
+}
+
+.navHeader {
+    width: 100vw;
+    height: 85px;
+    background-color: rgba(255, 255, 255, 0.85);
+}
+
+.navbar li {
+    float: right;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li > a{
+    border: none;
+    color: black;
+    padding: 15px 0px;
+    margin: 0px 24px;
+    text-align: center;
+    display: block;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+
+.navbar li > a:hover {
+    color: #E55839;
+    border-bottom: 3px solid #E55839;
+}
+
+#meny {
+    margin-left: 10%;
+    margin-top: 22px;
+    position: absolute;
+
+}
+
+#booking {
+    margin-left: 30%;
+    margin-top: 22px;
+    position: absolute;
+    margin-right: 10%;
+
+}
+
+#logo {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+}
+
+#logo:hover {
+  opacity: 0.9;
+}
+
+#logopicture {
+    transition: 0.4s;
+}
+
+#events {
+    margin-left: 63%;
+    margin-top: 22px;
+    position: absolute;
+
+}
+
+#om_oss {
+    margin-left: 80%;
+    margin-top: 22px;
+    position: absolute;
+
+}
+
+#navbar {
+    z-index: 1;
+    width: 100%;
+    top: 0;
+    position: fixed;
+}
+
+/*navbar slutt*/
+
+
+/*Forside CSS*/
+
+/*Kutter ut underline under linker*/
+a:link {
+    text-decoration: none;
+}
+
+/*Fonter til forsida*/
+#forsideH1 {
+    width: 70%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    font-weight: 100;
+    text-decoration: none;
+    text-align: center;
+    font-size: 40pt;
+    color: #E55839;
+    clear: both;
+    padding-top: 10px;
+}
+
+#forsideH2 {
+    font-size: 500%;
+    text-align: center;
+    padding: 0pt;
+    margin: 7% auto;
+}
+
+.forsideH3 {
+    font-size: 25pt;
+    color: white;
+    font-weight: 300;
+    text-align: center;
+    padding: 0pt;
+    margin: 3% auto;
+}
+
+#forsidetekst p {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    font-weight:300;
+    clear: both;
+    text-align: center;
+    color: black;
+}
+
+/*Styling av mega-diven som inneholder de tre boksene.*/
+#innhold {
+    width: 80%;
+    height: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    background: none;
+}
+
+/*Overordnet div til den rÃ¸de "santana-boksen"*/
+#red {
+    height: 90%;
+    width: 49%;
+    background-color: #E55839;
+    float: left;
+}
+
+
+/*Overordnet boks til de to boksene over hverandre pÃ¥ hÃ¸yre side.*/
+#click {
+    height: 100%;
+    width: 49%;
+    background: none;
+    float: right;
+}
+
+
+#santana {
+
+    height: 50%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+
+/*Ramme rundt santana-boksen*/
+#ramme {
+    height: 91%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    border-style: solid;
+    border-width: 5pt;
+}
+
+/*Overordnet mat-div styling*/
+#mat {
+    height: 41%;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #79C1CE;
+    border-style: solid;
+    border-width: 10pt;
+    border-color: #79C1CE;
+}
+
+#matbilde {
+    height: 68%;
+    width: 75%;
+    margin: 5% auto;
+}
+
+/*Overordnet kokke-div styling*/
+#kokk {
+    height: 41%;
+    width: 95%;
+    margin-top: 3.2%;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-width: 10pt;
+    background-color: #FFD05B;
+    border-color: #FFD05B;
+}
+
+#kokkebilde {
+
+    height: 68%;
+    width: 75%;
+    margin: 4% auto;
+    overflow: hidden;
+
+}
+
+.kokkeramme {
+    height: 90%;
+    width: 95%;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-width: 5pt;
+    border-color: white;
+}
+
+img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+/*Bildeslide forside */
+.container {
+    width: 100%;
+    height: auto;
+    padding-top: 100px;
+}
+
+/* Bildeslide-dottene, inspirasjon hentet fra w3-schools. */
+
+#dot1,#dot2,#dot3 {
+  cursor: pointer;
+  height: 7px;
+  width: 7px;
+  margin: 0 0.1%;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  margin-top: 1.8%;
+}
+
+/*forside css slutt*/
+
+
+/* HER BEGYNNER MENY CSS */
+
+/*sidebaren med ikonForklaringen og 2 bilder */
+.sidebar {
+  height: 100%;
+  display: inline-block;
+  float: left;
+  margin-top: 5%;
+  width: 20%;
+}
+
+/*hovedinnholdet pÃ¥ menysiden*/
+.menyBokser {
+ display: inline-block;
+ margin-bottom: 10%;
+ margin-top: 5%;
+ margin-left: 10%;
+ width: 70%;
+ line-height: 2;
+ font-size: 16px;
+}
+
+/*innholdet i ikonforklaringen */
+#ikonForklaring {
+  background-color: #E55839;
+  text-align: center;
+  width: 100%;
+}
+
+/*Knappen som Ã¥pner ikonforklaringen*/
+#ikonForklaringButton {
+  background-color: #E55839;
+  border-style: none;
+  outline-style: none;
+  text-align: center;
+  height:auto;
+  font-size: 20px;
+  padding: 5px 0;
+}
+
+#ikonForklaringButton:hover {
+  color: #FFD05B;
+  cursor: pointer;
+}
+
+/* ul-en i ikonforklaringen */
+#ulIkonForklaring {
+  width: 100%;
+  text-align: left;
+}
+
+#ulIkonForklaring ul {
+  list-style: none;
+}
+
+/* ikonene i ikonforklaringen */
+#menyIkoner li > img {
+  max-width: 30px;
+  max-height: 30px;
+}
+
+/* Bildene i sidebaren */
+#sidebarBilder img {
+  margin-top: 10%;
+  max-width: 100%;
+  max-height: 20%;
+  opacity: 0.7;
+}
+
+/* bildet mellom menyboksene */
+#menyBilde3 {
+  max-width: 100%;
+  max-height:100%;
+  opacity: 0.7;
+  display: inline-block;
+  margin: 5% 0;
+}
+
+/* De rÃ¸de boksene pÃ¥ menysiden*/
+.yellowBox {
+  background-color: #FFD05B;
+  width: 45%;
+  display: inline-block;
+  padding: 2%;
+}
+
+/* De rÃ¸de boksene pÃ¥ menysiden */
+.redBox {
+  background-color: #E55839;
+  display: inline-block;
+  width: 45%;
+  padding: 2%;
+}
+
+/* Alle meny boksene */
+#forretter {
+  float: left;
+}
+
+#hovedretter {
+  float: right
+}
+
+#desserter {
+  float: left;
+}
+
+#drikke {
+  float: right;
+}
+
+/* Her begynner FORM CCS*/
+
+/* styling og posisjonering av skejmaet*/
+#skjema {
+    width: 40%;
+    border: 8px solid #E55839;
+    padding: 3%;
+    margin-bottom: 5%;
+    display: inline-block;
+    padding-left: 9%;
+    padding-right: 9%;
+    padding-top: 6%;
+    display: inline-block;
+}
+
+/* styling av ulike element i skjemaet*/
+#skjema label{
+    color: black;
+}
+
+input {
+    margin-bottom: 7%;
+    color: black;
+}
+
+input[type="email"],input[type="tel"],input[type="number"], input[type="time"]{
+    width: 100%;
+    line-height: 22px;
+    font-size: 12px;
+}
+
+input[type="text"]{
+    width: 100%;
+    line-height: 22px;
+    font-size: 12px;
+}
+textarea {
+    height: 100px;
+    width: 100%;
+    font-size: 13px;
+    line-height: 18px;
+    color: black;
+}
+/* send-knapp */
+#submit{
+    width: 80px;
+    color: #ffffff;
+    font-size: 14px;
+    height: 40px;
+    line-height: 20px;
+    margin:5% 0%;
+    background-color: #79C1CE;
+}
+
+/* hoover effekt pÃ¥ send knapp*/
+#submit:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+/* element under hederbildet -  tekst og linje */
+#bookingtop {
+    text-align: center;
+    margin: 5% 0% 7%;
+}
+#bookingtop p{
+    color: black;
+    font-size: 1.28vw;
+}
+
+hr {
+    width: 80%;
+}
+/* boks til hÃ¸yre for skjemaet */
+#Bookingboks1 {
+    background-color: #FFD05B;
+    width: auto;
+    height: 100%;
+    color: #ffffff;
+    text-align: center;
+    line-height: 2.2;
+    font-size: 1.2vw;
+    padding: 9% 3%;
+
+}
+/* alle input og label element i skjemaet*/
+form>input, label {
+    display: block;
+    width: 100%;
+}
+
+/* stÃ¸rrelsen og posisjonering av ulike input felt i skjemaet */
+.fornavn {
+    width: 50%;
+    display: inline-block;
+}
+
+.Dato_tid, .fulltnavn {
+    width:104%;
+    display: inline-block;
+}
+
+.dato_reservasjon, .fornavn {
+    width: 50%;
+    display: inline-block;
+}
+input[type="date"],input[name="fornavn"] {
+    width: 80%;
+    line-height: 22px;
+}
+.tid, .etternavn {
+    width: 45%;
+    display: inline-block;
+}
+
+input[name="personer"] {
+    width: 40%;
+}
+
+.fulltnavn {
+    width:102%;
+    display: inline-block;
+}
+/* bilde til hÃ¸yre for skjemaet */
+#Bookingbilde1{
+    height: 50%;
+    width: 100%;
+    display: inline-block;
+    margin-top: 17%;
+}
+/* bilde nederst pÃ¥ siden*/
+#Bookingbilde2 {
+    height: 50%;
+    width: 40%;
+    display: inline-block;
+}
+
+/* infoboks nederst pÃ¥ siden */
+#Bookingboks2 {
+    background-color: #E55839;
+    width: 50%;
+    height: auto;
+    color: #ffffff;
+    float:right;
+    text-align: center;
+    line-height: 2;
+    font-weight: 100;
+    font-size: 1.28vw;
+    display: inline-block;
+    padding: 3%;
+}
+#Bookingboks2 > h3 {
+ color: #ffffff;
+ font-weight: 300;
+ text-align: center;
+}
+/* modul - deler av koden er hentet fra www.sabe.io */
+/* pisisjonering av modulen*/
+.modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(245, 245, 245, 0.5);
+    visibility: hidden;
+    transform: scale(1.1);
+    transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s; /* modal poppup-effekt */
+}
+/* innholdet i modulen */ 
+.innside-modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #79C1CE;
+    padding: 6%;
+    width: 25%;
+    text-align: center;
+    border-radius: 0.5rem;
+}
+/* styler modulen nÃ¥r den er Ã¥pen */
+.show-modal {
+    visibility: visible;
+    transform: scale(1.0);
+    transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s; 
+}
+/* X knappen i modulen */
+.close {
+    cursor: pointer;
+    float:right;
+}
+/* div rundt elementene bookingbox1 og bookingbilde1 */
+#hoyreSide {
+    width: 35%;
+    height: 100%;
+    float: right;
+    display: inline-block;
+    margin: 0%;
+}
+/* div rundt elementene bookingbox2 og bookingbilde2 */
+#nederst {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    margin-bottom: 5%;
+}
+
+/*Her begynner events CSS*/
+#eventsContent{
+    height: 100%;
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 25px;
+    position: relative;
+}
+/* div til hÃ¸yre med eventbox2 og eventsImage */ 
+#eventsRightContent{
+    float: right;
+    width: 45%;
+    margin-bottom: 10px;
+    display: inline-block;
+    padding: 10px;
+    height: 100%
+}
+/* infoboks til hÃ¸yre side */
+#eventsBox2{
+    width: 100%;
+    background-color: #FFD05B;
+    padding: 10px;
+    height: 100%;
+}
+
+/* infobox til venstre */
+#eventsBox1{
+    height: 120%;
+    width: 45%;
+    background-color: #E55839;
+    padding: 10px;
+    padding-bottom: 83px;
+    margin-bottom: 10px;
+    margin-top:10px;
+}
+/* div rundt eventImg */
+#eventsImgBox{
+    height: 100%;
+    width: 100%;
+}
+
+/* kant rundt eventImg */
+#eventsImage {
+  border: solid #79C1CE 10px;
+}
+/* infobox nederst pÃ¥ siden*/ 
+#eventsBox3{
+    border-style: solid;
+    border-color: #FFD05B;
+    height: 200px;
+    width: 100%;
+    border-width: 10px;
+    display: inline-block;
+
+}
+/* tekstelementeene inne i boksene */ 
+#eventsBox3 p {
+    color: black;
+}
+#eventsBox3 h2{
+    color: black;
+}
+
+#eventsContent p{
+    line-height: 1.5;
+}
+
+/*EVENTS.html SLUTT*/
+
+
+/*Her begynner CSS for omoss3.html*/
+
+#aboutusthechef { /* Making the image scroll with you. */
+    position: -webkit-sticky; /*supported by Safari and Chrome for iOS 12, not supported at all in Internet Explorer.*/
+    position: sticky;
+    height: 470px;
+    top: 100px;
+    left: 25%;
+    margin: 10px;
+    margin-left: 100px;
+}
+
+#aboutusthechefdiv { /* div around image, to position image better*/
+    height: 1450px;
+    width: 314px;
+    left: 25%;
+    margin: 10px;
+    margin-left: 120px;
+}
+
+#aboutusbox1 {
+    background-color: #FFD05B;
+    padding: 10px;
+    margin: 10px;
+    width: 30%;
+    height: 450px;
+    color: #ffffff;
+    left: 50%;
+    position: relative;
+    line-height: 1.5;
+    overflow: hidden;
+    top: -1450px;
+}
+
+#wrapperaboutus { /* Wrapper for the content in omoss3.html */
+    height: 2050px;
+}
+
+
+#aboutusbox2 {
+    background-color: #79C1CE;
+    padding: 10px;
+    margin: 10px 10px 10px;
+    width: 30%;
+    top: -1450px;
+    color: #ffffff;
+    height: 450px;
+    left: 50%;
+    position: relative;
+    line-height: 1.5;
+    overflow: hidden;
+}
+
+#aboutusbox3 {
+    background-color: #E55839;
+    padding: 10px;
+    margin: 10px 10px 10px 10px;
+    width: 30%;
+    top: -1450px;
+    color: #ffffff;
+    height: 450px;
+    left: 50%;
+    position: relative;
+    line-height: 1.5;
+    overflow: hidden;
+}
+
+.aboutusp { /* All paragraphs in omoss3.html */
+    font-size: 16px;
+    text-align: center;
+}
+
+.aboutush2 { /* All H2 in omoss3.html */
+    text-align: center;
+    font-size: 30px;
+}
+
+/*footer CSS */
+
+footer{
+    background-color: #79C1CE;
+    width: 100%;
+    height: 300px;
+    background-image: url("img/Kaktus.png");
+    background-position-x: 90%;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+}
+
+.footer, .push {
+    height: 50px;
+}
+
+.SoMe li{
+    list-style: none;
+    display: inline;
+    padding: 8%;
+}
+
+.SoMe li a:hover {
+    opacity: 0.5;
+}
+
+.Mid{
+    padding: 6%;
+}
+
+.kaktus{
+    float: right;
+    position: relative;
+    height: 100%;
+}
+
+/*Footer done*/
+
+
+/*MEDIA QUERIES*/
+@media only screen and (max-width: 1250px) { /* "breakpoint" where picture collides with aboutusboxes, removing image to assure compability*/
+
+    /*omoss*/
+
+    #aboutusthechef {
+        display: none;
+    }
+    #aboutusthechefdiv {
+        display: none;
+    }
+    #aboutusbox1 {
+        width: auto;
+        position: relative;
+        left: 0%;
+        height: auto;
+        margin: 10px;
+        top: 5px;
+    }
+    #aboutusbox2 {
+        width: auto;
+        position: relative;
+        left: 0%;
+        height: auto;
+        top: 10px;
+        margin: 10px;
+    }
+    #aboutusbox3 {
+        position: relative;
+        left: 0%;
+        height: auto;
+        width: auto;
+        top: 15px;
+        margin: 10px;
+        margin-bottom: 50px;
+    }
+    #wrapperaboutus {
+        height: auto;
+    }
+    #wrapperaboutus p {
+      font-size: 3vw;
+    }
+
+}
+
+@media screen and (max-width: 850px) {
+    #logopicture {
+        display: none;
+    }
+    #logo {
+        display: none;
+    }
+    #newlogo {
+        display: block;
+        height: 40px;
+        padding-top: 13px;
+        padding-left: 10px;
+    }
+    #newlogopicture {
+        display: block;
+        height: 40px;
+        padding-top: 13px;
+        padding-left: 10px;
+    }
+    #events {
+        margin-left: 50%;
+        margin-top: 22px;
+        position: absolute;
+        margin-right: 10px;
+    }
+    #booking {
+        margin-left: 30%;
+        margin-top: 22px;
+        position: absolute;
+        margin-right: 10px;
+    }
+    #meny {
+    margin-left: 17%;
+    margin-top: 22px;
+    position: absolute;
+    margin-right: 10px;
+
+}
+    #om_oss {
+        margin-left: 67%;
+        margin-top: 22px;
+        position: absolute;
+        margin-right: 10px;
+    }
+}
+
+
+@media screen and (max-width:1000px) {
+
+    .wrapper{
+        width: 90%;
+    }
+
+    .wrapper h1 {
+        font-size: 9vw;
+    }
+
+    #header {
+      max-height: 250px;
+      font-size: 10px;
+    }
+
+    /*Navbar*/
+     #logopicture {
+        padding-left: 20%;
+    }
+
+    /*forside*/
+    #forsideH1 {
+        font-size: 400%;
+
+    }
+
+    #forsideH2{
+        font-size: 250%;
+    }
+
+    #red {
+        height: 100%;
+        width: 100%;
+        float: none;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    #santana {
+        height: auto;
+        width: 61%;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    #ramme {
+    margin-bottom: 5%;
+    }
+
+    #kokkeramme {
+
+    }
+
+    #click {
+        float: none;
+        width: 100%;
+        margin-top: 3%;
+        margin-bottom: 10%;
+        position: relative;
+    }
+
+    #mat{
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0 0;
+
+    }
+
+    #matbilde {
+        height: 63%;
+        width: 70%;
+        margin-top: 5%;
+        margin-bottom: 7%;
+
+    }
+    .forsideH3 {
+        margin-top: 2%;
+    }
+
+    #innhold {
+      height: 100%;
+    }
+
+    /*Booking*/
+    
+    /* endrer stÃ¸rrelse pÃ¥ skjemaet*/
+    #skjema {
+        width: 80%;
+        margin-left:auto;
+        margin-right: auto;
+    }
+
+    #bookingtop p {
+     font-size: 4vw;
+    }
+    
+    /* diven rundt elementene pÃ¥ hÃ¸yre side 100% av wrapper */
+    #hoyreSide {
+        width: 100%;
+        height: 100%;
+    }
+    /* legger de to bildene pÃ¥ siden ved siden av hverandre */
+    #Bookingbilde1, #Bookingbilde2 {
+        width: 47%;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        display: inline-block;
+        margin-bottom: 5%;
+        font-size: 3vw;
+    }
+    #Bookingbilde2 {
+        float: right;
+        margin-top: -37%;
+    }
+    /* gjÃ¸r nederste infobox 100% av warppe og endrer skriftstÃ¸rrelse pÃ¥ boksene */
+    #Bookingboks2 {
+        width: 95%;
+        height: 100%;
+        font-size: 2vw;
+        
+    }
+    #Bookingboks2> h3 {
+        font-size: 3vw;
+    }
+    #Bookingboks1 {
+        padding: 3%;
+        font-size: 3vw;
+    }
+    #Bookingboks2, #Bookingboks1 {
+        font-size: 3vw;
+    }
+
+    #Bookingboks2> h3 {
+        font-size: 4vw;
+    }
+
+    /*Events*/
+    #eventsContainer{
+        width: 85%;
+    }
+    /* eventboxene blir 100% av wrapper*/
+    #eventsBox2{
+        height: auto;
+        display: inline-block;
+        width: 100%;
+    }
+    #eventsBox1{
+        width: 100%;
+        display: inline-block;
+        margin-bottom: 25px;
+    }
+    #eventsBox3{
+        height: auto;
+    }
+    #eventsRightContent{
+        width: 100%;
+        margin-bottom: 25px;
+        display: inline-block;
+    }
+    /* fjerne bildet*/ 
+    #eventsImgBox {
+        display: none;
+    }
+  
+    /*meny*/
+
+/*Setter innholdet pÃ¥ menysiden til 100% og midtstiller det. */
+    .sidebar {
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .menyBokser {
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+/* Endrer tekststÃ¸rrelsen i boksene */
+    .menyBokser h2{
+      font-size: 4vw;
+    }
+
+    .menyBokser p {
+      font-size: 3vw;
+    }
+
+    #ikonForklaringButton {
+      font-size: 4vw;
+    }
+
+    #ulIkonForklaring {
+      text-align: center;
+      font-size: 3vw;
+    }
+
+/* Fjerner bildet mellom menyboksene */
+    #menyBilde3 {
+        display: none;
+    }
+
+/* Fjerner float posisjonen og legger til padding pÃ¥ menyboksene*/
+     #forretter, #hovedretter, #desserter, #drikke {
+        width: 100%;
+        padding-left: 2%;
+        margin-bottom: 5%;
+        float: none;
+  }
+
+
+    /*footer*/
+       .SoMe li{
+        display: block;
+        padding: 0;
+    }
+    .Mid{
+        padding: 0%;
+    }
+
+}
+
+@media screen and (max-width:800px) { 
+    /* position of logo */
+    #logopicture {
+        height: 60px;
+        padding-left: 10px;
+    }
+    #logo {
+        height: 60px;
+    }
+}
+
+@media (max-device-width:600px) {
+    .navbar li > a{
+        font-size: 2em;
+        font-weight: 500;
+    }
+    /*  fjerner gamle logo og legger til "ny" som ikke pÃ¥virkes av header.js */ 
+    #newlogo {
+        display: block;
+        position: relative;
+        height: 130px;
+        width: 130px;
+        margin-left: 45.5%;
+        margin-right: auto;
+        padding-top: 20px;
+    }
+    #newlogopicture {
+        display: block;
+    }
+
+    #logopicture {
+       display: none;
+    }
+    #logo {
+        display: none;
+    }
+    .navbar li > a{
+        font-size: 2em;
+        font-weight: 500;
+    }
+    #booking {
+        margin-left: 20%;
+    }
+    #meny {
+        margin-left: 6%;
+    }
+    #events {
+        margin-left: 64%;
+    }
+  .SoMe li{
+        display: inline-block;
+        padding: 20px;
+        margin-top: 10%
+    }
+    .Mid{
+        padding: 0%;
+    }
+    /* endrer skriftstørrelse */
+    p {
+      font-size: 2em;
+    }
+    #Bookingboks1> p {
+        font-size: 1.3em;
+    }
+     #Bookingboks2> p {
+        font-size: 1.3em;
+    }
+     #Bookingboks2> h3 {
+        font-size: 1.5em;
+    }
+    #footer {
+        height: 20%;
+    }
+    
+
+    /* Navbar */
+    .navHeader {
+        height: 100px;
+    }
+
+}
